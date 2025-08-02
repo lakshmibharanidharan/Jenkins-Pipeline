@@ -8,7 +8,7 @@ pipeline {
     environment {
         GIT_REPO = 'https://github.com/lakshmibharanidharan/Jenkins-Pipeline.git'
         GIT_BRANCH = 'main'
-        SSH_CREDENTIALS = 'ec2-user'   // Jenkins SSH key credentials ID
+        SSH_CREDENTIALS = 'deploy'   // Jenkins SSH key credentials ID
         REMOTE_USER = 'ubuntu'
         REMOTE_HOST = '20.0.139.179'
         REMOTE_PATH = '/opt/tomcat/webapps'
